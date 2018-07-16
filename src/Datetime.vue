@@ -32,10 +32,6 @@
 </template>
 
 <script>
-import DomPortal from 'vue-dom-portal';
-import Vue from 'vue';
-Vue.use(DomPortal);
-
 import { DateTime } from 'luxon'
 import DatetimePopup from './DatetimePopup'
 import { datetimeFromISO, startOfDay, weekStart } from './util'

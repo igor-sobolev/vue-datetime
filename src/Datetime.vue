@@ -33,6 +33,7 @@
 
 <script>
 import DomPortal from 'vue-dom-portal';
+import Vue from 'vue';
 Vue.use(DomPortal);
 
 import { DateTime } from 'luxon'

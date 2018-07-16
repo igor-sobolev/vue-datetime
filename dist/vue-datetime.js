@@ -825,12 +825,12 @@ var vueDomPortal_common = plugin$2;
 
 function plugin (Vue) {
   Vue.component('datetime', Datetime);
+  Vue.component('v-dom-portal', vueDomPortal_common);
 }
 
 // Install by default if using the script tag
 if (typeof window !== 'undefined' && window.Vue) {
   window.Vue.use(plugin);
-  window.Vue.use(vueDomPortal_common); // portal popup to document.body
 }
 
 var version = '1.0.0-beta.6';
